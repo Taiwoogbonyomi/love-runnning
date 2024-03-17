@@ -42,7 +42,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-
 }
 
 h1 {
@@ -76,23 +75,22 @@ nav {
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
-    display: none;
-    top: 100%;
+    
 
 }
 
 /*Nav toggle*/
-#nav-toggle:checked~nav {
+/*#nav-toggle:checked~nav {
     display: block;
 
-}
+}*/
 
-#nav-toggle {
+/*#nav-toggle {
     display: none;
-}
-.nav-toggle-label {
+}*/
+/*.nav-toggle-label {
     font-size: 2rem;
-}
+}*/
 
 /*main content*/
 main {
@@ -100,6 +98,7 @@ main {
     /*make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
     margin-top: 47px;
+    
 }
 /*footer*/
 footer{
