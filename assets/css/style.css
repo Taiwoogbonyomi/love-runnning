@@ -133,20 +133,7 @@ main {
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
 }
-/*footer*/
-#social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
 
-#social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: #3a3a3a;
-}
 /* media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /*Header*/
@@ -262,9 +249,35 @@ hr {
 
 #times h3 {
     /* Override heading color set in general styles*/
-    color: #ffffff;
-    
+    color: #fafafa;
+ 
 }
+
+/* Gallery page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+/*footer*/
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+
 #benefits-image {
     display: flex;
     align-items: center;
