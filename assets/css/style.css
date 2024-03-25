@@ -171,17 +171,17 @@ main {
     margin: 0 0.5rem;
 }
  
-/*main content*/
+/* main content */
 main {
     /*Push main content down to accomodate larger header*/
     margin-top: 79px;
 }
-/*hero*/
+/* hero */
 #cover-text {
     width: 300px;
     right: 50px;
 }
-/*Reasons section*/
+/* Reasons section */
 #benefits-physical,
 #benefits-mental {
     display: flex;
@@ -226,15 +226,20 @@ hr {
     margin: 5px 0;
 }
 #circle-cover-bg {
-    background: url('../images/reasons-image.webp') no-repeat top center/cover;
+    background: url('../images/reasons-image.webp') no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
-    /*makes the square image into a circle*/
+    /* Makes the square image into a circle */
     border-radius: 50%;
-    max-width: 300%;
-    max-height: 300%;
+    max-width: 300px;
+    max-height: 300px;
+}
 
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /*large devices (laptop and desktop 992px and up) */
 @media screen and (min-width: 992px){
